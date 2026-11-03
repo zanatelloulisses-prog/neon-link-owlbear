@@ -18,7 +18,7 @@ async function start() {
     $('status').textContent = 'Carregando SDK...';
 
     const sdk = await Promise.race([
-      import('https://esm.sh/@owlbear-rodeo/sdk@2.3.1'),
+      import('https://esm.sh/@owlbear-rodeo/sdk@2.3.0'),
       new Promise((_, reject) =>
         setTimeout(() => reject(new Error('SDK não carregou em 15 segundos')), 15000)
       )
