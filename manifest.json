@@ -1,7 +1,14 @@
+
 {
   "name": "NEON LINK - Mensagens Night City",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "manifest_version": 1,
   "description": "Celular cyberpunk com contatos NPC e mensagens individuais (protótipo).",
-  "action": {"title":"NEON LINK","icon":"/icon.svg","popover":"/index.html","width":420,"height":690}
+  "action": {
+    "title": "NEON LINK",
+    "icon": "icon.svg",
+    "popover": "https://zanatelloulisses-prog.github.io/neon-link-owlbear/index.html",
+    "width": 420,
+    "height": 690
+  }
 }
